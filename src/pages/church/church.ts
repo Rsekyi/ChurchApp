@@ -14,8 +14,15 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'church.html',
 })
 export class ChurchPage {
+tab1:any;
+tab2:any;
+tab3:any;
+
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+  this.tab1="RegisterPage";
+  this.tab2="MembershipPage";
+  this.tab3="SearchPage";
   }
 
   ionViewDidLoad() {
