@@ -7,6 +7,8 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { Camera, CameraOptions } from '@ionic-native/camera';
+import { IonicStorageModule } from '@ionic/storage';
+//import { ChurchPage } from '../pages/church/church';
 @NgModule({
   declarations: [
     MyApp,
@@ -15,6 +17,7 @@ import { Camera, CameraOptions } from '@ionic-native/camera';
   imports: [
     BrowserModule,
     IonicModule.forRoot(MyApp)
+    
   ],
   bootstrap: [IonicApp],
   entryComponents: [
