@@ -6,7 +6,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
-
+import { Camera, CameraOptions } from '@ionic-native/camera';
 @NgModule({
   declarations: [
     MyApp,

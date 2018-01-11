@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-
+import { Camera, CameraOptions } from '@ionic-native/camera';
 /**
  * Generated class for the RegisterPage page.
  *
@@ -17,6 +17,7 @@ export class RegisterPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
+  
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad RegisterPage');
